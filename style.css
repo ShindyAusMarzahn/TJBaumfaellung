@@ -434,6 +434,7 @@ header nav ul li a:hover{
   background-repeat: no-repeat;
   /*background-size: 1920px 679px*/
   background-attachment: fixed;
+  background-size: 100%;
   /*opacity: 0.85;*/
 }
 
