@@ -539,6 +539,14 @@ footer p{
   height:425px;
 }
 
+.LastBox{
+  min-height: 95%;
+  width:50%;
+  background-color: white;
+  float: left;
+}
+
+
 /* Tablets*********************************definierter Breakpoint**************/
 
 @media screen and (max-width: 1024px){
@@ -634,6 +642,19 @@ footer p{
       margin-left: 10%;
       margin-right: 10%;
     }  
+
+    .breitBox{
+      min-height: 95%;
+      width:1024px;
+      background-color: white;
+    }
+
+    .LastBox{
+      min-height: 95%;
+      width:500px;
+      background-color: white;
+      float: left;
+    }
 }
 
 
