@@ -60,7 +60,7 @@ hr{
   margin: 0 auto 40px auto;
 }
 
-}
+
 
 /* unknown purpose************************************************************************/
 #HeadId, li, img{
@@ -283,8 +283,10 @@ header{
 /*#002c14;*/
 
 /* Bild Tristan*****************************************************************/
-#HeadId{
-  width: 140px;
+#HeadId img{
+  margin-top: 0px;
+  max-width:189px; 
+  height:90px; 
   float: left;
   margin-left: 50px;
   margin-top: 7px;
@@ -293,9 +295,7 @@ header{
   opacity: 0.85;
   }
 
-#HeadId img{
-  width: 100%;
-}
+
 
 /* Bild Telefon***************************************************************/
 #HeadId2{
@@ -371,7 +371,7 @@ header{
   }
 
 #HeadId3 img{
-  width: 100%;
+
 }
 
 #HeadId3 p{
@@ -391,8 +391,8 @@ header nav ul{
   display: inline-block;
   list-style-type: none;
 
-  /*text-align: center;*/
-  /*position: relative;
+  text-align: center;
+  position: relative;
 /*  width: 100%*
   margin: 0 auto;
 
@@ -409,7 +409,7 @@ header nav ul li{
 }
 
 header nav ul li a{
-  font-size: 18px;
+  font-size: 15px;
   color: grey;
 
 }
@@ -430,11 +430,11 @@ header nav ul li a:hover{
 /* MainPage********************************************************************/
 #MainPageId{
   background: url(Main2.JPG);
-  /*background-position: center; */
+  background-position: center center;
   background-repeat: no-repeat;
-  /*background-size: 1920px 679px*/
+  background-size: cover;
   background-attachment: fixed;
-  background-size: 100%;
+ /* background-size: 100%;*/
   /*opacity: 0.85;*/
 }
 
@@ -532,4 +532,113 @@ footer p{
 /* Kontakt*********************************************************************/
 #KontaktId p{
   font-size: 18.5px;
+}
+
+#KarteId img{
+  width:445px;
+  height:425px;
+}
+
+/* Tablets*********************************definierter Breakpoint**************/
+
+@media screen and (max-width: 1024px){
+
+  /* Header Weiß ****************/
+    header{
+      height:48px;
+      width: 1024px;
+    }
+  /* Logo TJ Busse****************/
+    #HeadId img{
+      width: 100px;
+      height: 48px;
+      margin-top: 0px;
+      margin-left: 2%
+    }
+
+    header nav{
+      margin-top: 0;
+    }
+
+    
+    header nav ul li {
+      font-size: 3px;
+    }
+
+      /* Notdienst Button ****************/
+    #HeadId3{
+      height: 30px;
+      width: 140px;
+      float: right;
+      margin-right:80px;
+      /*padding-top: 5px;*/
+      margin-top: 10px;
+      background-color: rgb(219, 0, 0);
+      border-radius: 1px;
+      border: 3px solid;
+      border-color:black;
+    }
+
+    #HeadId3 p{
+      margin-top: 1%;
+    }
+  
+    /* Hintegrundbild ****************/
+    #MainPageId{
+    width:1024px ;
+    }
+
+    .head2{
+      width: 1024px;
+    }
+
+    #MainPageId{
+      background-attachment: scroll;
+  }
+
+    #MainPageId h1{
+      margin-top: 70%;
+      font-size: 60px;
+    }
+
+    .box{
+      width:1024px;
+    }
+
+    #work1 img{
+      width:512px;
+      height:230px;
+    }
+
+    #work3 img{
+      width:512px;
+      height:230px;
+    }
+
+    #work5 img{
+      width:512px;
+      height:230px;
+    }
+
+    #KarteId img{
+      width:360px;
+      height:340px;
+    }
+
+    footer {
+      width: 100%;
+      z-index: 2;            /* Lvl Priorität*/
+    }
+
+    .borderlineKontakt{
+      margin-left: 10%;
+      margin-right: 10%;
+    }  
+}
+
+
+/* Mobile*********************************************************************/
+
+@media screen and (max-width: 480px){
+
 }
