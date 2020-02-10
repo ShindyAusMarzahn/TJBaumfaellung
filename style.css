@@ -221,6 +221,7 @@ padding-top:3%;
   min-height:100px;
   width:100%;
   background-color: #013f1d;
+  z-index: 2;
 }
 
 .NochFragenBox{
@@ -534,9 +535,15 @@ footer p{
   font-size: 18.5px;
 }
 
+/*
 #KarteId img{
   width:445px;
   height:425px;
+}
+*/
+#KarteId img{
+  width:50%;
+  height:40%;
 }
 
 .LastBox{
@@ -553,47 +560,48 @@ footer p{
 
   /* Header Weiß ****************/
     header{
-      height:48px;
+      
       width: 1024px;
     }
   /* Logo TJ Busse****************/
     #HeadId img{
-      width: 100px;
-      height: 48px;
+      width: 189px;
+      height: 90px;
       margin-top: 0px;
       margin-left: 2%
     }
 
     header nav{
-      margin-top: 0;
+      /*margin-top: 0; */
     }
 
     
     header nav ul li {
-      font-size: 3px;
+      /*font-size: 3px;*/
     }
 
       /* Notdienst Button ****************/
-    #HeadId3{
+   /* #HeadId3{
       height: 30px;
       width: 140px;
       float: right;
       margin-right:80px;
-      /*padding-top: 5px;*/
+      /*padding-top: 5px;
       margin-top: 10px;
       background-color: rgb(219, 0, 0);
       border-radius: 1px;
       border: 3px solid;
-      border-color:black;
-    }
+      border-color:black; 
+    } */
 
     #HeadId3 p{
-      margin-top: 1%;
+      /*margin-top: 1%;*/
     }
   
     /* Hintegrundbild ****************/
     #MainPageId{
-    width:1024px ;
+    width: 1024px ;
+    height: 20px;
     }
 
     .head2{
@@ -631,6 +639,8 @@ footer p{
     #KarteId img{
       width:360px;
       height:340px;
+      z-index: -1; 
+      
     }
 
     footer {
