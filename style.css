@@ -672,4 +672,113 @@ footer p{
 
 @media screen and (max-width: 480px){
 
+
+  /* Header Weiß ****************/
+  header{
+      
+    width: 480px;
+  }
+/* Logo TJ Busse****************/
+  #HeadId img{
+    width: 189px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 2%
+  }
+
+  header nav{
+    /*margin-top: 0; */
+  }
+
+  
+  header nav ul li {
+    /*font-size: 3px;*/
+  }
+
+    /* Notdienst Button ****************/
+ /* #HeadId3{
+    height: 30px;
+    width: 140px;
+    float: right;
+    margin-right:80px;
+    /*padding-top: 5px;
+    margin-top: 10px;
+    background-color: rgb(219, 0, 0);
+    border-radius: 1px;
+    border: 3px solid;
+    border-color:black; 
+  } */
+
+  #HeadId3 p{
+    /*margin-top: 1%;*/
+  }
+
+  /* Hintegrundbild ****************/
+  #MainPageId{
+  width: 1024px ;
+  height: 20px;
+  }
+
+  .head2{
+    width: 1024px;
+  }
+
+  #MainPageId{
+    background-attachment: scroll;
+}
+
+  #MainPageId h1{
+    margin-top: 70%;
+    font-size: 60px;
+  }
+
+  .box{
+    width:1024px;
+  }
+
+  #work1 img{
+    width:512px;
+    height:230px;
+  }
+
+  #work3 img{
+    width:512px;
+    height:230px;
+  }
+
+  #work5 img{
+    width:512px;
+    height:230px;
+  }
+
+  #KarteId img{
+    width:360px;
+    height:340px;
+    z-index: -1; 
+    
+  }
+
+  footer {
+    width: 100%;
+    z-index: 2;            /* Lvl Priorität*/
+  }
+
+  .borderlineKontakt{
+    margin-left: 10%;
+    margin-right: 10%;
+  }  
+
+  .breitBox{
+    min-height: 95%;
+    width:1024px;
+    background-color: white;
+  }
+
+  .LastBox{
+    min-height: 95%;
+    width:500px;
+    background-color: white;
+    float: left;
+  }
+
 }
