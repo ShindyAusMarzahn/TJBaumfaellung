@@ -897,9 +897,14 @@ footer p{
   }
 
   #MainPageId h1{
-    margin-top: 400px;
+    margin:600 auto 0 auto;
     
     font-size: 40px;
+  }
+
+  #MainPageId h2{
+    margin: 0 auto 0 auto;
+
   }
 
   #PfeilId{
@@ -927,7 +932,7 @@ footer p{
 
   .boxWhiteIntro3{
     width:480px;
-    height:420px;
+    height:410px;
     background-color: white;
     float: none;
     padding-top: 100px;
