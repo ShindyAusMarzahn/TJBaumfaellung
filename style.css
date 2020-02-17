@@ -97,7 +97,14 @@ padding-top:3%;
 
 
 /* Standard Box Außen Config ***********Main***Dienste******************************************/
-.box{
+.boxFirst{
+  width:100%;
+  min-height:230px;
+  background-color: white;
+  padding-top:3%;
+  padding-top: 180px;
+}
+.boxRest{
   width:100%;
   min-height:230px;
   background-color: white;
@@ -113,7 +120,7 @@ padding-top:3%;
 
 .boxGreenSmall{
   width:95%;
-  height:230px;
+  height:300px;
   background-color: #2d7a56;;
   float: left;
   margin-left: 5%;
@@ -172,6 +179,7 @@ padding-top:3%;
 
 /* Box Außen Config*********************Main****Kontakt******************************************/
 .breitBox{
+  margin-top: 100px;
   min-height: 95%;
   width:100%;
   background-color: white;
@@ -657,6 +665,10 @@ footer p{
       width:1024px;
     }
 
+    #work1{
+      min-height: 0px;
+    }
+
     #work1 img{
       width:512px;
       height:230px;
@@ -834,11 +846,12 @@ footer p{
   }
 
   .boxWhiteIntro1{
-    margin-top: 4%;
     width:480px;
     height:300px;
     background-color: white;
     float: none;
+    margin-top: 50px;
+
   }
   
   .boxWhiteIntro2{
@@ -846,9 +859,18 @@ footer p{
     height:420px;
     background-color: white;
     float: none;
-   
+    margin-top: 50px;
     
     
+  }
+
+  .boxWhiteIntro3{
+    width:480px;
+    height:300px;
+    background-color: white;
+    float: none;
+    padding-top: 100px;
+
   }
 
   .boxGreenSmall{
@@ -872,44 +894,85 @@ footer p{
     margin-right: 30px;
   }
 
-  .box{
-    width:1024px;
+  .boxPerson{
+    width:480px;
+    min-height: 1250px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .boxFirst{
+    width:480px;
+    min-height: 410px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+  .boxRest{
+    width:480px;
+    min-height: 410px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
   }
 
   .boxWhite{
-    width:50%;
-    height:230px;
+    width:480px;
+    height:110px;
     background-color: white;
     float: none;
   }
 
   .boxGreen{
-    width:50%;
-    height:230px;
+    width:480px;
+    height:300px;
     background-color: #2d7a56;;
     float: none;
   }
 
+  .TDiensteHeadline{
+    font-size: 150%;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-right:20px;
+    color: beige;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  }
+
   #work1 img{
-    width:512px;
-    height:230px;
+    width:480px;
+    height:110px;
+  }
+
+  #work2 img{
+    width:480px;
+    height:110px;
+    float: right;
   }
 
   #work3 img{
-    width:512px;
-    height:230px;
+    width:480px;
+    height:110px;
+  }
+
+  #work4 img{
+    width:480px;
+    height:110px;
   }
 
   #work5 img{
-    width:512px;
-    height:230px;
+    width:480px;
+    height:110px;
   }
+
+ 
 
 
 
 
   .NochFragenBox{
-    padding-top: 305px;
+    padding-top: 35px;
+
     width:480px;
     min-height:50px;
     background-color: white;
@@ -944,8 +1007,9 @@ footer p{
   }  
 
   .breitBox{
+    margin-top: 10px;
     min-height: 95%;
-    width:1024px;
+    width:480px;
     background-color: white;
   }
 
