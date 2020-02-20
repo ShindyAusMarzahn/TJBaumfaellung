@@ -72,15 +72,14 @@ hr{
 /* anchor that positions the id reference correctly*****************************************/
 .anchor {
   display:block;
-  padding-top:0px;
-  margin-top:90px;
+  padding-top:90px;
 }
 
  .anchor2 {
   display:block;
-  padding-top:0px;
-  margin-top:10px;
+  padding-top:50px;
 }
+
 
 /* unknown purpose************************************************************************/
 .h3PadEraser{
