@@ -416,7 +416,7 @@ header{
 
 .TDiensteS{
   font-size: 110%;
-  margin-top: 2px;
+  padding-top: 25px;
   margin-right:1px;
   color: beige;
   font-family: Arial Black,Arial Bold,Gadget,sans-serif;
@@ -713,22 +713,136 @@ footer p{
       width:1024px;
     }
 
+    .anchor {
+      display:block;
+      padding-top:20px;
+    }
+
+    .boxPerson{
+      width:1024px;
+      min-height: 500px;
+      padding-bottom: 0px;
+      margin-bottom: 50px;
+      padding-top: 20px;
+    }
+    
+    .boxWhiteIntro1{display: none;}
+   /* .boxWhiteIntro1{
+      width:20%;
+      height:300px;
+      background-color: white;
+      float: left;
+      margin-top: 50px;
+  
+    } */
+
+    .boxWhiteIntro2{
+      width:70%;
+      height:600px;
+      background-color: white;
+      float: left;
+      margin-top: 20px;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+
+    .boxGreenSmall{
+      padding-top: 1%;
+      width:90%;
+      height:440px;
+      background-color: #2d7a56;;
+      float: none;
+      margin-top: 20px;
+    }
+
+    .boxWhiteIntro2 p{
+      margin-top: 10px;
+      margin-left: 17px;
+      margin-right: 17px ;
+      text-align: center;
+    }
+  
+    .boxWhiteIntro2 hr3{
+      margin-bottom: 20px; 
+      margin-right: 10px;
+    }
+
+    .boxWhiteIntro3{
+      width: 30%;
+      height:410px;
+      background-color: white;
+      float: left;
+      margin-top: 20px;
+      padding-right: 20px;
+
+    }
+
+    .boxWhiteIntro3 p{
+      margin-top: 10px;
+      margin-bottom: 15px; 
+      margin-right: 10px;
+    }
+    
+    .boxWhiteIntro3 hr3{
+      margin-bottom: 20px; 
+      margin-right: 523px;
+    }
+
+    .boxFirst{
+      width:1024px;
+      min-height:118px;
+      background-color: white;
+      padding-top: 40px;
+    }
+    
+    .boxRest{
+      width:1024px;
+      min-height:118px;
+      background-color: white;
+      padding-top:3%;
+      margin-top: 40px;
+    }
+
+    
+  .boxWhite{
+    width:1024px;
+    height:230px;
+    background-color: white;
+    float: none;
+  }
+
+  .boxGreen{
+    width:1024px;
+    height:250px;
+    background-color: #2d7a56;;
+    float: none;
+  }
+
     #work1{
       min-height: 0px;
     }
 
     #work1 img{
-      width:512px;
+      width:1024px;
+      height:230px;
+    }
+    #work2 img{
+      width:1024px;
       height:230px;
     }
 
     #work3 img{
-      width:512px;
+      width:1024px;
+      height:230px;
+    }
+    #work4 img{
+      width:1024px;
       height:230px;
     }
 
     #work5 img{
-      width:512px;
+      width:1024px;
       height:230px;
     }
 
@@ -739,9 +853,26 @@ footer p{
       
     }
 
+    .NochFragenBox{
+      padding-top: 30px;
+  
+      width:1024px;
+      min-height:50px;
+      background-color: white;
+    
+    }
+
+    .footerBox{
+      min-height:70px;
+      width:1024px;
+      background-color: #013f1d;
+      z-index: 2;
+    }
+
     footer {
-      width: 100%;
+      width: 1024px;
       z-index: 2;            /* Lvl Priorität*/
+      margin-bottom: 185px;
     }
 
     .borderlineKontakt{
@@ -750,9 +881,10 @@ footer p{
     }  
 
     .breitBox{
-      min-height: 95%;
+      min-height: 850px;
       width:1024px;
       background-color: white;
+      margin-top: 0;
     }
 
     .LastBox{
